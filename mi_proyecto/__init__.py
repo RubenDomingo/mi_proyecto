@@ -6,10 +6,13 @@ from .burla import (
     burla_U,
 )
 
+from .binario import get_binario
+
 __all__ = [
     "burla_A",
     "burla_E",
     "burla_I",
     "burla_O",
     "burla_U",
+    "get_binario",
 ]
