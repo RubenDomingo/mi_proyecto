@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "mi_proyecto"
 version = "1.0"
 authors = [{name = "Rubén Rodríguez Tártalo"}]
-description = "Librería de ejemplo para el curso de Python"
+description = "Librería de ejemplo"
 readme = "README.md"
 license = { file = "LICENSE" }
 dependencies = []
