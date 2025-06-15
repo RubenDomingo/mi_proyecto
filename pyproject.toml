@@ -3,10 +3,10 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "conversor_binario"
-version = "0.1.0"
+name = "mi_proyecto"
+version = "1.0"
 authors = [{name = "Rubén Rodríguez Tártalo"}]
-description = "Conversor de números decimales a binarios"
+description = "Librería de ejemplo para el curso de Python"
 readme = "README.md"
 license = { file = "LICENSE" }
 dependencies = []
