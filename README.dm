@@ -49,7 +49,11 @@ mi_proyecto/
 └── setup.py
 ```
 
-## 🦺 Ejecutar Pruebas
+< EJEMPLOS DE USO >
+
+< PRUEBAS >
+
+Para ejecutar las pruebas, asegúrate de que el entorno virtual está activado y ejecuta el siguiente comando en la terminal:
 
 ```bash
 pytest
