@@ -57,9 +57,6 @@ romanos.py
     get_romano()
         Conversión a números romanos, limitado a números del 1 al 3999 ya que es el rango de números representables en números romanos.
 
-- Burla de palabras, sustituye todas las vocales de un texto por la vocal deseada
-- Conversión a números romanos
-
 
 <<<< FUNCIONAMIENTO >>>>
 
