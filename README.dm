@@ -4,7 +4,7 @@ Librería de ejemplo
 
 - Python 3.8 o superior
 - pip (gestor de paquetes de Python) instalado
-- Un editor de código
+- Un editor de código (opcional, pero recomendado)
 - Emulador de terminal
 - Este paquete, se descarga desde https://github.com/RubenDomingo/mi_proyecto
 
@@ -15,7 +15,7 @@ Abre una terminal y sitúate en la carpeta raíz del proyecto clonado.
 Esta librería viene con un script de instalación desatendida que puedes ejecutar con el siguiente comando:
 
 ```bash
-python .\scripts\instalar.py # No olvides activar el entorno virtual con el comando 
+python .\scripts\instalar.py
 ```
 
 No olvides activar el entorno virtual tras la instalación. Puedes hacerlo con el siguiente comando:
