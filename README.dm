@@ -15,9 +15,9 @@ Abre una terminal y sitúate en la carpeta raíz del proyecto clonado.
 Ejecuta los siguientes comandos:
 
 ```bash
-python -m venv .venv # Crea un entorno virtual
-.venv\Scripts\activate  # En Linux o macOS: source .venv/bin/activate
-pip install -r requirements.txt # Instala las dependencias
+python -m venv venv # Crea un entorno virtual
+.venv\Scripts\activate  # En Linux o macOS: source .venv/bin/activate # Activa el entorno virtual
+pip install -r .\requirements.txt # Instala las dependencias
 pip install -e . # Instala el proyecto en modo desarrollador
 ```
 
@@ -49,11 +49,17 @@ mi_proyecto/
 └── setup.py
 ```
 
-< EJEMPLOS DE USO >
+< FUNCIONAMIENTO >
+
+Para obtener un ejemplo de los resultados, puedes usar el siguiente comando:
+
+```bash
+python -m scripts.main
+```
 
 < PRUEBAS >
 
-Para ejecutar las pruebas, asegúrate de que el entorno virtual está activado y ejecuta el siguiente comando en la terminal:
+Asegúrate de que el entorno virtual está activado y ejecuta el siguiente comando desde el directorio raíz del proyecto:
 
 ```bash
 pytest
