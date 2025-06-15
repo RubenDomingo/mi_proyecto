@@ -1,5 +1,6 @@
 Librería de ejemplo
 
+
 <<<< REQUISITOS PREVIOS >>>>
 
 - Python 3.8 o superior
@@ -14,25 +15,16 @@ Librería de ejemplo
 Abre una terminal y sitúate en la carpeta raíz del proyecto clonado.
 
 Esta librería viene con un script de instalación desatendida que puedes ejecutar con el siguiente comando:
-
-```bash
-python .\scripts\instalar.py
-```
+    python .\scripts\instalar.py
 
 No olvides activar el entorno virtual tras la instalación. Puedes hacerlo con el siguiente comando:
-
-```bash
-.venv\Scripts\activate  # En Linux o macOS: source .venv/bin/activate
-```
+    .venv\Scripts\activate
 
 Si prefieres instalarlo manualmente, puedes usar los siguientes comandos en el orden escrito:
-
-```bash
-python -m venv venv # Crea un entorno virtual
-.venv\Scripts\activate  # En Linux o macOS: source .venv/bin/activate (Activa el entorno virtual)
-pip install -r .\requirements.txt # Instala las dependencias
-pip install -e . # Instala el proyecto en modo desarrollador
-```
+    python -m venv venv
+    .venv\Scripts\activate
+    pip install -r .\requirements.txt
+    pip install -e .
 
 
 <<<< UTILIDADES >>>>
@@ -61,24 +53,17 @@ romanos.py
 <<<< FUNCIONAMIENTO >>>>
 
 Para obtener un ejemplo de los resultados, puedes usar el siguiente comando:
-
-```bash
-python -m scripts.main
-```
+    python -m scripts.main
 
 
 <<<< PRUEBAS >>>>
 
 Asegúrate de que el entorno virtual está activado y ejecuta el siguiente comando desde el directorio raíz del proyecto:
-
-```bash
-pytest
-```
+    pytest
 
 
 <<<< DIRECTORIOS >>>>
 
-```
 mi_proyecto/
 ├── mi_proyecto/
 |    └── __init__.py
@@ -93,9 +78,8 @@ mi_proyecto/
 |    └── test_burla.py
 |    └── test_romanos.py
 ├── LICENSE
+├── pyproject.toml
 ├── README.md
-├── requirements.txt
-└── setup.py
-```
+└── requirements.txt
 
 Rubén Rodríguez Tártalo - Proyecto licenciado bajo la Licencia MIT.
