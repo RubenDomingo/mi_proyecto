@@ -8,6 +8,7 @@ Librería de ejemplo
 - Emulador de terminal
 - Este paquete, se descarga desde https://github.com/RubenDomingo/mi_proyecto
 
+
 <<<< PASOS PARA INSTALAR >>>>
 
 Abre una terminal y sitúate en la carpeta raíz del proyecto clonado.
@@ -32,6 +33,7 @@ python -m venv venv # Crea un entorno virtual
 pip install -r .\requirements.txt # Instala las dependencias
 pip install -e . # Instala el proyecto en modo desarrollador
 ```
+
 
 <<<< UTILIDADES >>>>
 
@@ -58,6 +60,7 @@ romanos.py
 - Burla de palabras, sustituye todas las vocales de un texto por la vocal deseada
 - Conversión a números romanos
 
+
 <<<< FUNCIONAMIENTO >>>>
 
 Para obtener un ejemplo de los resultados, puedes usar el siguiente comando:
@@ -66,6 +69,7 @@ Para obtener un ejemplo de los resultados, puedes usar el siguiente comando:
 python -m scripts.main
 ```
 
+
 <<<< PRUEBAS >>>>
 
 Asegúrate de que el entorno virtual está activado y ejecuta el siguiente comando desde el directorio raíz del proyecto:
@@ -73,6 +77,7 @@ Asegúrate de que el entorno virtual está activado y ejecuta el siguiente coman
 ```bash
 pytest
 ```
+
 
 <<<< DIRECTORIOS >>>>
 
